@@ -1,5 +1,9 @@
 <?php
 
+namespace utils;
+
+use Faker;
+
 class personGenerator
 {
     function generate($locale, $gender)

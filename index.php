@@ -1,6 +1,9 @@
 <?php
-require_once 'utils/cpfGenerator.php';
-require_once 'utils/personGenerator.php';
+
+use utils\personGenerator;
+
+require_once 'api/utils/cpfGenerator.php';
+require_once 'api/utils/personGenerator.php';
 require_once 'vendor/autoload.php';
 
 $personGenerator = new personGenerator();

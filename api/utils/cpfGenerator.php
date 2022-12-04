@@ -1,5 +1,8 @@
 <?php
 
+namespace utils;
+use type;
+
 class CpfGenerator
 {
     /**
