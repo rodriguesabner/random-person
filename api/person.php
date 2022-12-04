@@ -1,4 +1,6 @@
 <?php
+header('content-type: application/json');
+
 require_once '../utils/cpfGenerator.php';
 require_once '../utils/personGenerator.php';
 require_once '../vendor/autoload.php';
