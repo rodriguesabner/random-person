@@ -1,16 +1,7 @@
 {
   "functions": {
-    "api/person.php": {
-      "runtime": "vercel-php@0.5.2"
-    },
-    "api/utils/cpfGenerator.php": {
-      "runtime": "vercel-php@0.5.2"
-    },
-    "api/utils/personGenerator.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.5.2"
     }
-  },
-  "routes": [
-    { "src": "/(.*)",  "dest": "/api/person.php" }
-  ]
+  }
 }
