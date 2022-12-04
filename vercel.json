@@ -8,9 +8,9 @@
     },
     "api/utils/personGenerator.php": {
       "runtime": "vercel-php@0.5.2"
-    },
-    "vendor/autoload.php": {
-      "runtime": "vercel-php@0.5.2"
     }
-  }
+  },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/api/person.php" }
+  ]
 }
